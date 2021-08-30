@@ -12,7 +12,7 @@ Available for **all** roles: /register;
 
 **FOR USER:**
 
-**Get:** /cinema-halls, /movies, /movie-sessions/* , /orders, /shopping-carts;
+**Get:** /cinema-halls, /movies, /movie-sessions/** , /orders, /shopping-carts;
 
 **Post:** /orders, /shopping-carts;
 
