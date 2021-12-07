@@ -24,7 +24,7 @@ public class DataInitializer {
         adminRole.setName(Role.RoleName.ADMIN);
         roleService.add(adminRole);
         User admin = new User();
-        admin.setEmail("eugen@gmail.com");
+        admin.setEmail("admin@test.ua");
         admin.setPassword("1234");
         admin.setRoles(Set.of(adminRole));
         userService.add(admin);
@@ -33,7 +33,7 @@ public class DataInitializer {
         userRole.setName(Role.RoleName.USER);
         roleService.add(userRole);
         User user = new User();
-        user.setEmail("NEeugen@gmail.com");
+        user.setEmail("user@test.ua");
         user.setPassword("1234");
         user.setRoles(Set.of(userRole));
         userService.add(user);
